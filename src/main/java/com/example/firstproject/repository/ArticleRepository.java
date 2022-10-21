@@ -1,8 +1,13 @@
 package com.example.firstproject.repository;
 
 import com.example.firstproject.entity.Article;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ArticleRepository extends CrudRepository<Article, Long> {
+import java.util.ArrayList;
+import java.util.Optional;
+
+public interface ArticleRepository extends JpaRepository<Article, Long> {
+
 
 }
+

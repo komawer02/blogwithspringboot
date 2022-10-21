@@ -1,0 +1,1 @@
+INSERT INTO article(id, title, content) values (1, '가가가', '1111');
